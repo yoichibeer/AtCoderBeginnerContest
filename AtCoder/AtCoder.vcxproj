@@ -87,10 +87,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="atcoder_test.cpp" />
+    <ClCompile Include="atcoder_beginner_A_test.cpp" />
+    <ClCompile Include="atcoder_beginner_B_test.cpp" />
+    <ClCompile Include="atcoder_beginner_C_test.cpp" />
+    <ClCompile Include="atcoder_beginner_D_test.cpp" />
+    <ClCompile Include="atcoder_beginner_E_test.cpp" />
+    <ClCompile Include="atcoder_beginner_F_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\common\detect_memory_leak.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="testdata_a1.txt" />
+    <Text Include="testdata_a2.txt" />
+    <Text Include="testdata_a3.txt" />
+    <Text Include="testdata_a4.txt" />
+    <Text Include="testdata_b1.txt" />
+    <Text Include="testdata_b2.txt" />
+    <Text Include="testdata_b3.txt" />
+    <Text Include="testdata_b4.txt" />
+    <Text Include="testdata_c1.txt" />
+    <Text Include="testdata_c2.txt" />
+    <Text Include="testdata_c3.txt" />
+    <Text Include="testdata_c4.txt" />
+    <Text Include="testdata_d1.txt" />
+    <Text Include="testdata_d2.txt" />
+    <Text Include="testdata_d3.txt" />
+    <Text Include="testdata_d4.txt" />
+    <Text Include="testdata_e1.txt" />
+    <Text Include="testdata_e2.txt" />
+    <Text Include="testdata_e3.txt" />
+    <Text Include="testdata_e4.txt" />
+    <Text Include="testdata_f1.txt" />
+    <Text Include="testdata_f2.txt" />
+    <Text Include="testdata_f3.txt" />
+    <Text Include="testdata_f4.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
