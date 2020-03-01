@@ -44,7 +44,7 @@ int main(int, char* [])
 
 TEST(AtCoder, c1)
 {
-    std::ifstream in(L"testdata_c1.txt");
+    std::ifstream in("testdata_c1.txt");
     testing::internal::CaptureStdout();
 
     c(in);
@@ -55,7 +55,7 @@ TEST(AtCoder, c1)
 
 TEST(AtCoder, c2)
 {
-    std::ifstream in(L"testdata_c2.txt");
+    std::ifstream in("testdata_c2.txt");
     testing::internal::CaptureStdout();
 
     c(in);
@@ -67,7 +67,7 @@ TEST(AtCoder, c2)
 
 TEST(AtCoder, c3)
 {
-    std::ifstream in(L"testdata_c3.txt");
+    std::ifstream in("testdata_c3.txt");
     testing::internal::CaptureStdout();
 
     c(in);
@@ -78,7 +78,7 @@ TEST(AtCoder, c3)
 
 TEST(AtCoder, c4)
 {
-    std::ifstream in(L"testdata_c4.txt");
+    std::ifstream in("testdata_c4.txt");
     testing::internal::CaptureStdout();
 
     c(in);
