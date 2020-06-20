@@ -4,6 +4,7 @@
 #include <gtest/gtest.h>
 #include "detect_memory_leak.h"
 #include <fstream>
+#include <filesystem>
 
 #define main main_c
 
@@ -17,6 +18,8 @@
 
 #include <iostream>
 #include <vector>
+#include <set>
+#include <list>
 #include <map>
 #include <string>
 #include <algorithm>
@@ -44,7 +47,10 @@ int main(int, char* [])
 
 TEST(AtCoder, c1)
 {
-    std::ifstream in("testdata_c1.txt");
+    const std::string path("testdata_c1.txt");
+    if (std::filesystem::is_empty(path)) return;
+
+    std::ifstream in(path);
     testing::internal::CaptureStdout();
 
     c(in);
@@ -55,7 +61,10 @@ TEST(AtCoder, c1)
 
 TEST(AtCoder, c2)
 {
-    std::ifstream in("testdata_c2.txt");
+    const std::string path("testdata_c2.txt");
+    if (std::filesystem::is_empty(path)) return;
+
+    std::ifstream in(path);
     testing::internal::CaptureStdout();
 
     c(in);
@@ -67,7 +76,10 @@ TEST(AtCoder, c2)
 
 TEST(AtCoder, c3)
 {
-    std::ifstream in("testdata_c3.txt");
+    const std::string path("testdata_c3.txt");
+    if (std::filesystem::is_empty(path)) return;
+
+    std::ifstream in(path);
     testing::internal::CaptureStdout();
 
     c(in);
@@ -78,7 +90,10 @@ TEST(AtCoder, c3)
 
 TEST(AtCoder, c4)
 {
-    std::ifstream in("testdata_c4.txt");
+    const std::string path("testdata_c4.txt");
+    if (std::filesystem::is_empty(path)) return;
+
+    std::ifstream in(path);
     testing::internal::CaptureStdout();
 
     c(in);
